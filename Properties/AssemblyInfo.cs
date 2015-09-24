@@ -7,7 +7,7 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("livegui")]
-[assembly: AssemblyDescription("GUI launcher for Livestreamer.\n\nLivestreamer ©Copyright 2011-2015, Christopher Rosell\n\nChange log:\n\n2.0.0 - 2015-09-24\n - Scheduler activation makes sense now\n - Options menu\n - Close launcher option moved to Options\n - livestreamer location option moved to Options\n - All sites supported by Livestreamer are now supported\n - Custom quality text\n - Edit window for Saved URLs, Plugins and Qualities\n - Custom launch options\n - New icon\n\n1.7.0 - 2015-08-09\n - Scheduler has now action options (alert and start stream)\n\n1.6.0 - 2015-07-12\n - Scheduler\n\n1.5.0 - 2015-06-27\n - Save launched URLs\n\n1.4.0 - 2015-02-20\n - Option to keep the launcher open")]
+[assembly: AssemblyDescription("GUI launcher for Livestreamer.\n\nLivestreamer ©Copyright 2011-2015 Christopher Rosell\n\nChange log:\n\n2.0.0 - 2015-09-24\n - Scheduler activation makes sense now\n - Options menu\n - Close launcher option moved to Options\n - livestreamer location option moved to Options\n - All sites supported by Livestreamer are now supported\n - Custom quality text\n - Edit window for Saved URLs, Plugins and Qualities\n - Custom launch options\n - New icon\n\n1.7.0 - 2015-08-09\n - Scheduler has now action options (alert and start stream)\n\n1.6.0 - 2015-07-12\n - Scheduler\n\n1.5.0 - 2015-06-27\n - Save launched URLs\n\n1.4.0 - 2015-02-20\n - Option to keep the launcher open")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("livegui")]
