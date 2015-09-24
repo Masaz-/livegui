@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="livegui.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="closeLauncher" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="livestreamerLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">livestreamer</Value>
+    </Setting>
+    <Setting Name="urls" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="alarmFocus" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="plugins" Type="System.String" Scope="User">
+      <Value Profile="(Default)">afreecatv.com|afreeca.tv|aftonbladet.se|aliez.tv|live.daserste.de|ardmediathek.de|arte.tv|azubu.tv|be-at.tv|bambuser.com|chaturbate.com|connectcast.tv|crunchyroll.com|cybergame.tv|dailymotion.com|video.disney.de|disneychannel.de|dommune.com|douyutv.com|api.dmcloud.net|dr.dk|euronews.com|filmon.com|filmon.us|furstre.am|gaminglive.tv|gomexp.com|goodgame.ru|hitbox.tv|itv.com/itvplayer|leton.tv|livestation.com|new.livestream.com|media.ccc.de|streaming.media.ccc.de|mips.tv|mlg.tv|nhk.or.jp/nhkworld|nos.nl|npo.nl|tv.nrk.no|radio.nrk.no|original.livestream.com|periscope.tv|picarto.tv|rtve.es|kanal5play.se|kanal9play.se|kanal11play.se|seemeplay.ru|speedrunslive.com|ssh101.com|streamingvideoprovider.co.uk|streamlive.to|svtplay.se|svtflow.se|oppetarkiv.se|star.plu.cn|star.tga.plu.cn|tv3.cat|tv4play.se|fotbollskanalen.se|tvcatchup.com|tvplayer.com|twitch.tv|ustream.tv|vaughnlive.tv|breakers.tv|instagib.tv|vapers.tv|veetle.com|vgtv.no|viagame.com|tv3play.se|tv3play.no|tv3play.dk|tv3play.ee|tv3play.lt|tv3play.lv|tv6play.se|tv6play.no|tv8play.se|tv10play.se|viasat4play.no|play.tv3.lt|juicyplay.se|wat.tv|weeb.tv|youtube.com|youtu.be|zdf.de|</Value>
+    </Setting>
+    <Setting Name="mediaPlayerLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="useCustomMediaPlayer" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="launchParameters" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="qualities" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Best|Worst</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

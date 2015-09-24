@@ -1,0 +1,33 @@
+﻿<Window x:Class="livegui.OptionsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:livegui"
+        mc:Ignorable="d"
+        Title="Settings" Height="365" Width="340" WindowStartupLocation="CenterScreen" MinWidth="340" MinHeight="365">
+    <Grid>
+        <GroupBox x:Name="groupBox" Header="General" Margin="10,10,10,54">
+            <Grid>
+                <CheckBox x:Name="check_closeLauncher" Content="Close the launcher" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" ToolTip="Close the livegui when a stream is launched" Loaded="check_closeLauncher_Loaded" Click="check_closeLauncher_Click"/>
+                <CheckBox x:Name="check_alarmFocus" Content="Focus to window on alert" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" ToolTip="Focus to window when the alarm goes off" Click="check_alarmFocus_Click" Loaded="check_alarmFocus_Loaded" />
+                <CheckBox x:Name="check_useMediaPlayer" Content="Use custom media player" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Click="check_useMediaPlayer_Click" Loaded="check_useMediaPlayer_Loaded"/>
+                <TextBox x:Name="tb_mediaPlayerLocation" Height="23" Margin="10,96,64,0" VerticalAlignment="Top" IsEnabled="False" Loaded="tb_mediaPlayerLocation_Loaded" GotFocus="tb_mediaPlayerLocation_GotFocus" LostFocus="tb_mediaPlayerLocation_LostFocus"/>
+                <Button x:Name="btn_selectMediaPlayerLocation" Content="..." HorizontalAlignment="Right" Margin="0,96,10,0" VerticalAlignment="Top" Width="45" Height="23" IsEnabled="False" Click="btn_selectMediaPlayerLocation_Click"/>
+                <Label x:Name="label1" Content="Media player location" HorizontalAlignment="Left" Margin="5,70,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="tb_livestreamerLocation" Height="23" Margin="10,150,64,0" VerticalAlignment="Top" Loaded="tb_livestreamerLocation_Loaded" GotFocus="tb_livestreamerLocation_GotFocus" LostFocus="tb_livestreamerLocation_LostFocus"/>
+                <Button x:Name="btn_selectLivestreamerLocation" Content="..." HorizontalAlignment="Right" Margin="0,150,10,0" VerticalAlignment="Top" Width="45" Height="23" Click="btn_selectLivestreamerLocation_Click"/>
+                <Label x:Name="label2" Content="Livestreamer location" HorizontalAlignment="Left" Margin="5,124,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="tb_launchParameters" Height="23" Margin="10,204,10,0" VerticalAlignment="Top" Loaded="tb_launchParameters_Loaded" LostFocus="tb_launchParameters_LostFocus"/>
+                <Label x:Name="label3" Content="Other launch parameters" HorizontalAlignment="Left" Margin="5,178,0,0" VerticalAlignment="Top"/>
+                <TextBlock x:Name="textBlock" HorizontalAlignment="Right" Margin="0,183,10,0" TextWrapping="Wrap" VerticalAlignment="Top" TextDecorations="Underline" TextAlignment="Right">
+                    <Hyperlink x:Name="launchParaLink" Loaded="launchParaLink_Loaded" RequestNavigate="launchParaLink_RequestNavigate">Documentation</Hyperlink>
+                </TextBlock>
+            </Grid>
+        </GroupBox>
+        <Button x:Name="btn_save" Content="Save" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="75" Click="btn_save_Click" Height="29"/>
+        <Button x:Name="btn_cancel" Content="Cancel" HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="75" Click="btn_cancel_Click" Height="29"/>
+
+
+    </Grid>
+</Window>
