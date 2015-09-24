@@ -1,7 +1,7 @@
 # livegui
 GUI launcher for Livestreamer.
 
-Livestreamer ©Copyright 2011-2015, Christopher Rosell
+Livestreamer © Copyright 2011-2015 Christopher Rosell
 
 ## Change log
 
