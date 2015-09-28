@@ -161,6 +161,9 @@ namespace livegui
 
                     if (Properties.Settings.Default.closeLauncher)
                         Close();
+
+                    SaveQuality();
+                    SaveUrl();
                 }
 
                 catch (Exception general)
@@ -171,23 +174,19 @@ namespace livegui
 
             else
             {
-                MessageBox.Show("No plugin found for URL " + cb_url.Text, "Can't open stream!", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("No plugin found for URL " + cb_url.Text + "! You can try adding base URL to plugin list.", "Can't open stream!", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
         }
 
         private void btn_launch_Click(object sender, RoutedEventArgs e)
         {
-            SaveUrl();
             LaunchStream();
         }
 
         private void cb_url_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.Enter)
-            {
-                SaveUrl();
                 LaunchStream();
-            }
         }
 
         private void Scheduler_Click(object sender, RoutedEventArgs e)
