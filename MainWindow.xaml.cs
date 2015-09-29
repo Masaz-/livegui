@@ -121,9 +121,7 @@ namespace livegui
                 ComboBoxItem cbi = new ComboBoxItem();
 
                 cbi.Content = cb_quality.Text;
-
                 qualities.Add(cb_quality.Text);
-                cb_quality.Items.Add(cbi);
 
                 Properties.Settings.Default.qualities = string.Join("|", qualities);
                 Properties.Settings.Default.Save();
