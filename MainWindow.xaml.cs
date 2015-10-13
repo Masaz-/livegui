@@ -92,11 +92,10 @@ namespace livegui
             {
                 urls.Add(cb_url.Text);
 
+                urls = urls.Where(s => !string.IsNullOrWhiteSpace(s)).Distinct().ToList();
+
                 cb_url.ItemsSource = null;
                 cb_url.ItemsSource = urls;
-
-                cb_quality.ItemsSource = null;
-                cb_quality.ItemsSource = qualities;
 
                 Properties.Settings.Default.urls = string.Join("|", urls);
                 Properties.Settings.Default.Save();
