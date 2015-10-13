@@ -5,6 +5,9 @@ Livestreamer © Copyright 2011-2015 Christopher Rosell
 
 ## Change log
 
+### 2.0.1 - 2015-10-13
+ - Fixed bugs
+
 ### 2.0.0 - 2015-09-24
  - Scheduler activation makes sense now
  - Options menu
